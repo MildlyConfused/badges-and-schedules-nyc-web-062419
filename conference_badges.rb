@@ -22,4 +22,4 @@ def assign_rooms(speakers)
 end
 
 
-batch_badge_creator(['Ben','Shan','Josh'])
+batc(['Ben','Shan','Josh'])

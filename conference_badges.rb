@@ -22,4 +22,4 @@ def assign_rooms(speakers)
 end
 
 
-batc(['Ben','Shan','Josh'])
+assign_rooms(["Hello, my name is Ben.", "Hello, my name is Shan.", "Hello, my name is Josh."])

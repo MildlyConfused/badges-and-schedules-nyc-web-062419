@@ -17,7 +17,7 @@ def assign_rooms(speakers)
   assignments = []
   range = 1..7
   for room in range
-    puts speakers[room-1]
+    puts speakers[room]
   end
 end
 

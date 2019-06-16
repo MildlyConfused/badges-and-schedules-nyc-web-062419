@@ -13,4 +13,13 @@ def batch_badge_creator(arr)
   return badges
 end
 
+def assign_rooms(speakers)
+  assignments = []
+  range = 1..7
+  for room in range
+    puts speakers[room-1]
+  end
+end
+
+
 batch_badge_creator(['Ben','Shan','Josh'])

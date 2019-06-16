@@ -9,6 +9,8 @@ def batch_badge_creator(arr)
   for person in range
     badges[person] = badge_maker(arr[person])
   end
+  puts badges.inspect
+  return badges
 end
 
 batch_badge_creator(['Ben','Shan','Josh'])

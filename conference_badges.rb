@@ -7,7 +7,7 @@ def batch_badge_creator(arr)
   badges = []
   range = 0..arr.length-1
   for person in range
-    
+    badges[person] = badge_maker(arr[person])
   end
 end
 

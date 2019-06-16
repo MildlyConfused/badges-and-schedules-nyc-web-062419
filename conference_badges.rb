@@ -10,3 +10,5 @@ def batch_badge_creator(arr)
     puts person
   end
 end
+
+batch_badge_creator(['Ben','Shan','Josh'])
